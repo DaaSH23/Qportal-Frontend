@@ -1,0 +1,96 @@
+.sideBar{
+  background: #eceff1;
+}
+
+.sideBar.sideBar1{
+  background: #eceff1;
+}
+
+.ProfileDesign{
+  margin: 30px;
+  border-radius: 15px;
+  background: #e2e8f0;
+}
+
+
+.infoContent{
+  /* margin-left: 6rem; */
+  max-width: 25rem;
+}
+
+.burgerMenu{
+  position: absolute;
+  /* padding-top: 25px; */
+  /* display: flex; */
+  /* align-content: center; */
+  top: 3%;
+  padding-left: 30px;
+}
+
+/* #root > div > div > div.w-full.flex.flex-col > div > div > div.bg-clip-border.mt-4.mx-4.bg-white.text-gray-700.rounded-none{ */
+  /* overflow: hidden !important; 
+  position: sticky !important; */
+  /* height: 40rem !important; */
+  /* overflow-y: none; */
+/* } */
+
+#root > div > div > div.w-full.flex.flex-col > div > div > div.overflow-scroll.px-0{
+  padding: 0 !important;
+}
+
+.fixed-header {
+  position: sticky;
+  top: 0;
+  z-index: 1; /* Ensures the header stays above the scrolling content */
+  background-color: white; /* Background color for the fixed header */
+}
+
+.cardHead{
+  min-height: 18rem;
+}
+
+/* .userLogo{
+  width: 2.5rem;
+  height: 2.5rem;
+} */
+
+/* --------------------Navbar---------------- */
+.navbutton{
+  text-decoration: none;
+  /* margin-left: 2rem; */
+}
+
+.logintext{
+  color: #eceff1;
+}
+
+.loginbutton{
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 10px;
+  background-color: #415a77;
+  border-radius: 8px;
+}
+
+.loginbutton:hover{
+  background-color: #64768d;
+}
+.navoptions{
+  margin-right: 2rem;
+}
+
+
+/* --------------------------------------------- */
+
+.customButton{
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 15rem;
+}
